@@ -7,10 +7,6 @@
     <script src="1076090084111604" async=""></script>
     <script async="" src="fbevents.js"></script>
     <script src="jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.9/jquery.inputmask.min.js"
-        integrity="sha512-F5Ul1uuyFlGnIT1dk2c4kB4DBdi5wnBJjVhL7gQlGh46Xn0VhvD8kgxLtjdZ5YN83gybk/aASUAlpdoWUjRR3g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
 
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -212,7 +208,7 @@
 
                         <div class="inp">
                             <img src="inp-phone.png" alt="">
-                            <input type="tel" name="phone" placeholder="Número de teléfono" required>
+                            <input type="tel" name="phone" class="phone" placeholder="Número de teléfono" required>
                         </div>
 
                         <button type="submit" class="button">Pedido con descuento</button>
@@ -441,7 +437,7 @@
 
                         <div class="inp">
                             <img src="inp-phone.png" alt="">
-                            <input type="tel" name="phone" placeholder="Número de teléfono" required>
+                            <input type="tel" name="phone" class="phone" placeholder="Número de teléfono" required>
                         </div>
 
                         <button type="submit" class="button">Pedido con descuento</button>
@@ -480,9 +476,6 @@
 </div> -->
     <!-- end person gift -->
     <script type="text/javascript" src="lib.js"></script>
-    <script>
-        Inputmask("+56 (999) 999-999").mask('#phone');
-    </script>
     <link type="text/css" rel="stylesheet" href="roboto.css">
     <script type="text/javascript" src="yasoblock-v2.js"></script>
     <script type="text/javascript" src="plugins.js"></script>
@@ -523,7 +516,7 @@
 
                     <div class="inp">
                         <img src="inp-phone.png" alt="">
-                        <input type="tel" name="phone" placeholder="Número de teléfono" required>
+                        <input type="tel" name="phone" class="phone" placeholder="Número de teléfono" required>
                     </div>
 
                     <button type="submit" class="button">Pedido con descuento</button>
